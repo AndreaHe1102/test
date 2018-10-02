@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<style>
+#header {
+    background-color:#ff7575;
+    color:white;
+    text-align:center;
+    padding:5px;
+}
+#nav {
+    line-height:30px;
+    background-color:#eeeeee;
+    height:500px;
+    width:100px;
+    float:left;
+    padding:5px;	      
+}
+#section {
+    
+    width:550px;
+    float:left;
+    padding:10px;	 	 
+}
+#login {
+    float:right;
+right:200px;top:150px	      
+}
+#footer {
+    background-color:black;
+    color:white;
+    clear:both;
+    text-align:center;
+   padding:5px;	 	 
+}
+#watermark .marker{
+	position: absolute;
+	font-size: 60px;
+	opacity: 0.1;
+	font-family: "Josefin Sans";
+	text-transform: uppercase;
+	left: 0;
+	top: -20px;
+}
+
+#watermark{
+	position: relative;
+}
+.page-title{
+	
+	font-size: 28px;
+	font-family: "Josefin Sans";
+}
+</style>
+</head>
+
+<body>
+
+<div id="header">
+<h1>Andrea He</h1>
+</div>
+
+<div id="nav">
+
+<a href="mypage.html">Home</a> <br>
+<a href="film.html">Film</a> <br>
+<a href="music.html">Music</a> <br>
+</div>
+
+<div id="section">
+<div id="watermark">
+                            <h2 class="page-title" text-center>Music is life</h2>
+                            <div class="marker">M</div>
+                        </div>
+Here is my favourite music in recent days.<br>
+<audio src="Landslide.mp3" controls="controls">
+Your browser does not support the audio element.
+</audio><br>
+<br>
+<br>
+<hr />
+And here's my playlist. I hope that you can find some music you like.<br>
+<a href="http://music.163.com/#/my/m/music/playlist?id=74099431">My playlist</a> <br>
+</div>
+<div id="login" >
+                <form method="post" action="" name="login">
+                    <input type="text" name="username" placeholder="Username"><br>
+                    <input type="password" name="password" placeholder="Password"><br>
+                    <input class="butt" type="submit"  value="login in ">
+                </form>
+
+</div>
+
+<div id="footer">
+<a href="contact.html">Contact me</a> 
+</div>
+
+</body>
+</html>
